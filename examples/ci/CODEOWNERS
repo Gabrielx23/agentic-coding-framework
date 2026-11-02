@@ -1,0 +1,25 @@
+# Minimal CODEOWNERS for ACF protected paths.
+# Replace @org/acf-owners with your team. See Part 7 of the guide.
+# Both classes need approval from a named owner.
+
+# Never change — framework and hard-protected project files
+/acf/ @org/acf-owners
+/AGENTS.md @org/acf-owners
+/acf-project/ACF_CHARTER.md @org/acf-owners
+/acf-project/metrics.md @org/acf-owners
+/acf-project/evaluation-set/ @org/acf-owners
+/acf-project/blueprints/ @org/acf-owners
+/acf-project/retrospectives/ @org/acf-owners
+
+# Draft by pull request only — Define artifacts
+/acf-project/ubiquitous-language/ @org/acf-owners
+/acf-project/adr/ @org/acf-owners
+/acf-project/architecture/ @org/acf-owners
+
+# CI and lock files (adjust paths to your stack) — Never change
+/.github/workflows/ @org/acf-owners
+/package-lock.json @org/acf-owners
+/pnpm-lock.yaml @org/acf-owners
+/yarn.lock @org/acf-owners
+/Cargo.lock @org/acf-owners
+/go.sum @org/acf-owners

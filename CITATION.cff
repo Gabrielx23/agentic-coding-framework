@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use or adapt this framework, please cite it as below."
+title: "Agentic Coding Framework (ACF)"
+abstract: "Guardrails, blueprints, and verification for reliable agent-written code."
+type: generic
+authors:
+  - given-names: Gabriel
+    family-names: Slawski
+license: CC-BY-4.0
+date-released: 2026-11-02
+repository-code: "https://github.com/Gabrielx23/agentic-coding-framework"
+keywords:
+  - agentic coding
+  - software architecture
+  - C4 model
+  - domain-driven design
+  - AI agents
