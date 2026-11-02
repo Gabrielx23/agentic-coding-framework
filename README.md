@@ -44,9 +44,29 @@ The Learn stage is the source of long-term value. Each cycle makes the guardrail
 
 Filled samples: [examples/billing-service](examples/billing-service/), [examples/subscription-service](examples/subscription-service/).
 
+## Install
+
+Run this in the root of your project:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Gabrielx23/agentic-coding-framework/main/install.sh | sh
+```
+
+The installer adds `acf/` (framework), creates the missing parts of `acf-project/` (never overwrites your files), and creates `AGENTS.md` if it does not exist. Run the same command again to upgrade.
+
+Options: `--ref v0.1.0` (pin a version), `--dir <path>`, `--dry-run`, `--yes`.
+
+To read the script before you run it:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Gabrielx23/agentic-coding-framework/main/install.sh -o install.sh
+less install.sh
+sh install.sh
+```
+
 ## Quick start
 
-Copy the drop-in packages into an existing project:
+After Install, or after you copy the drop-in packages by hand:
 
 1. Copy the `acf/` directory into the project root, including [`acf/NOTICE.md`](acf/NOTICE.md).
 2. Copy the `acf-project/` directory into the project root (empty skeleton plus charter and metrics templates).
